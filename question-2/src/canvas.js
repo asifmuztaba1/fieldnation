@@ -19,7 +19,7 @@ function draw(cell, color) {
 
 export default {
     drawSegment(cell) {
-        draw(cell, options.snakeColor);
+        draw(cell, options.lineColor);
     },
     eraseCell(cell) {
         draw(cell);
